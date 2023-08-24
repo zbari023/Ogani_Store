@@ -4,7 +4,7 @@ from .models import *
 
 
 class ProductAdmin(admin.ModelAdmin):
-    list_display = ['name', 'price']
+    list_display = ['name', 'price','flag']
     list_filter = ['name', 'price']
     search_fields = ['name', 'price']
 
